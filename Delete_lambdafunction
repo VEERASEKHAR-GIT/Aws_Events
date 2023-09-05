@@ -1,0 +1,2 @@
+aws s3 ls
+aws lambda delete-function --function-name Your_lambdafuction
