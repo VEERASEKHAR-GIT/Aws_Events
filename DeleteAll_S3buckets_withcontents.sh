@@ -11,3 +11,6 @@ done < bucket_list.txt
 
 # Clean up the temporary file
 rm bucket_list.txt
+
+
+
