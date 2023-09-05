@@ -1,6 +1,6 @@
 ## To list the buckets
 aws s3 ls
-##Empty and Delete Buckets: Use the following commands to empty and delete each bucket:
+## Empty and Delete Buckets: Use the following commands to empty and delete each bucket:
 - replace bucket name
 aws s3 rm s3://bucket-name --recursive
 aws s3 rb s3://bucket-name
