@@ -26,3 +26,15 @@ Start Jenkins: Start the Jenkins service and enable it to start on boot:
 - sudo systemctl enable jenkins
 - Unlock Jenkins: Retrieve the initial administrator password and unlock Jenkins by following the instructions displayed in the console:
 
+# bash code
+
+- sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+- Copy and paste the password to access the Jenkins setup wizard.
+
+Go to Aws Console and Security group and inbound rules to http
+
+Initial Setup
+Access Jenkins: Open a web browser and navigate to http://your_server_ip_or_hostname:8080. Replace your_server_ip_or_hostname with your server's IP address or hostname.
+
+Jenkins Configuration: Follow the on-screen instructions to complete the initial Jenkins setup.
+
