@@ -22,3 +22,7 @@ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 sudo yum install jenkins
 Start Jenkins: Start the Jenkins service and enable it to start on boot:
 
+- sudo systemctl start jenkins
+- sudo systemctl enable jenkins
+- Unlock Jenkins: Retrieve the initial administrator password and unlock Jenkins by following the instructions displayed in the console:
+
