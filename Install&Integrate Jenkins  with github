@@ -1,0 +1,11 @@
+## Jenkins Installation and GitHub Integration Guide
+
+A server or machine where you intend to install Jenkins.
+A GitHub account and repository where you want Jenkins to automate your CI/CD pipeline.
+Basic knowledge of Linux server administration.
+Installation
+Install Jenkins
+Linux Server: Set up a Linux server where you plan to host Jenkins.
+
+Java Installation: Jenkins requires Java to run. If Java is not already installed, you can install it using the following commands:
+
