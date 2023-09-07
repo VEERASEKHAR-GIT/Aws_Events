@@ -52,3 +52,23 @@ Available Plugins: In the "Available" tab, search for "GitHub" and select the "G
 
 Install: Click "Install without restart" to install the plugin.
 
+Create GitHub Personal Access Token
+To allow Jenkins to access your GitHub repositories, you need to create a personal access token:
+
+GitHub Account: Log in to your GitHub account.
+
+User Settings: Click on your profile picture in the top-right corner and select "Settings."
+
+Developer Settings: In the left sidebar, click on "Developer settings."
+
+Personal Access Tokens: Click on "Personal access tokens."
+
+Generate Token: Click "Generate token" and follow the prompts to create a new personal access token. Ensure that you grant permissions for repo and admin:repo_hook.
+
+Copy Token: After generating the token, copy it to your clipboard. This token will be used to authenticate Jenkins with GitHub.
+
+Configure Jenkins for GitHub
+Now, let's configure Jenkins to work with GitHub:
+
+Jenkins Dashboard: Go back to the Jenkins dashboard.
+
