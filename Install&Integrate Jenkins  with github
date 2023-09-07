@@ -38,3 +38,17 @@ Access Jenkins: Open a web browser and navigate to http://your_server_ip_or_host
 
 Jenkins Configuration: Follow the on-screen instructions to complete the initial Jenkins setup.
 
+Now that Jenkins is installed and set up, let's configure it to work with your GitHub repositories.
+
+GitHub Integration
+Install GitHub Plugin
+Jenkins Dashboard: After logging in, go to the Jenkins dashboard.
+
+Manage Jenkins: Click on "Manage Jenkins" in the left sidebar.
+
+Manage Plugins: Click on "Manage Plugins" to access the Jenkins plugin manager.
+
+Available Plugins: In the "Available" tab, search for "GitHub" and select the "GitHub Integration" plugin.
+
+Install: Click "Install without restart" to install the plugin.
+
