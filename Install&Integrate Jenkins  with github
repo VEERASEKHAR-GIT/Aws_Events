@@ -72,3 +72,20 @@ Now, let's configure Jenkins to work with GitHub:
 
 Jenkins Dashboard: Go back to the Jenkins dashboard.
 
+Manage Jenkins: Click on "Manage Jenkins."
+
+Configure System: Scroll down to find the "GitHub" section and configure the following settings:
+
+GitHub Web Hook: Check "Let Jenkins auto-manage hook URLs."
+
+GitHub API: Add your GitHub API credentials:
+
+Click "Add" next to "GitHub Servers."
+Enter a name for your server (e.g., "GitHub").
+Enter your GitHub API URL (https://api.github.com for GitHub.com).
+Add your GitHub username and the personal access token you generated earlier.
+Credentials: Click "Add" next to "Credentials" and add your GitHub personal access token as a "Secret text" credential.
+
+Test Connection: Click "Test Connection" to ensure that Jenkins can connect to your GitHub account.
+
+Save: Click "Save" to save your configuration.
