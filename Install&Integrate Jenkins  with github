@@ -1,5 +1,5 @@
 ## Jenkins Installation and GitHub Integration Guide
-
+Author: veerasekhar p
 A server or machine where you intend to install Jenkins.
 A GitHub account and repository where you want Jenkins to automate your CI/CD pipeline.
 Basic knowledge of Linux server administration.
