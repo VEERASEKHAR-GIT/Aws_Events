@@ -9,3 +9,16 @@ Linux Server: Set up a Linux server where you plan to host Jenkins.
 
 Java Installation: Jenkins requires Java to run. If Java is not already installed, you can install it using the following commands:
 
+
+- sudo yum update
+- sudo yum install java-1.8.0-openjdk-devel
+- Replace java-1.8.0-openjdk-devel with the appropriate package name for your Linux distribution.
+
+Jenkins Installation: Install Jenkins using the following steps:
+
+
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+sudo yum install jenkins
+Start Jenkins: Start the Jenkins service and enable it to start on boot:
+
